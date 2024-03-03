@@ -1,0 +1,28 @@
+# from gpiozero import LED
+# green = LED(22)
+# green.off()
+# green.on()
+# green.off()
+import RPi.GPIO as GPIO
+import time
+
+GPIO.setmode(GPIO.BCM)
+GPIO.setwarnings(False)
+GPIO.setup(25, GPIO.OUT)
+print("LED on")
+GPIO.output(25, GPIO.HIGH)
+time.sleep(1)
+print("LED off")
+GPIO.output(25, GPIO.LOW)
+GPIO.setup(22, GPIO.OUT)
+print("LED on")
+GPIO.output(22, GPIO.HIGH)
+time.sleep(1)
+print("LED off")
+GPIO.output(22, GPIO.LOW)
+GPIO.setup(27, GPIO.OUT)
+print("LED on")
+GPIO.output(27, GPIO.HIGH)
+time.sleep(1)
+print("LED off")
+GPIO.output(27, GPIO.LOW)

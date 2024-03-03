@@ -1,0 +1,4 @@
+[2024-01-14 17:40:51,613.613] INFO [3069376064] - Started server process [555]
+[2024-01-14 17:40:51,620.620] INFO [3069376064] - Waiting for application startup.
+[2024-01-14 17:40:51,644.644] INFO [3069376064] - Application startup complete.
+[2024-01-14 17:40:51,737.737] INFO [3069376064] - Uvicorn running on http://0.0.0.0:80 (Press CTRL+C to quit)

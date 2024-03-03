@@ -1,0 +1,6 @@
+[2024-01-08 10:33:03,756.756] INFO [3069785664] - Started server process [551]
+[2024-01-08 10:33:03,773.773] INFO [3069785664] - Waiting for application startup.
+[2024-01-08 10:33:03,777.777] INFO [3069785664] - Application startup complete.
+[2024-01-08 10:33:03,858.858] INFO [3069785664] - Uvicorn running on http://0.0.0.0:80 (Press CTRL+C to quit)
+[2024-01-08 13:01:19,796.796] INFO [3069785664] - 192.168.1.41:50656 - "GET /in_meeting HTTP/1.1" 200
+[2024-01-08 13:30:47,400.400] INFO [3069785664] - 192.168.1.41:44648 - "GET /available HTTP/1.1" 200

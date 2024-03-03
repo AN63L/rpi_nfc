@@ -1,0 +1,23 @@
+## Installation
+
+RUNNING IT ALL IN SUDO IS SUPER IMPORTANT => otherwise you will encounter issues to access the API
+
+
+``sudo apt update``
+`` sudo apt upgrade``
+``sudo apt install python3 python3-pip python3-venv``
+``sudo pip install fastapi``
+``sudo pip install "uvicorn[standard]"``
+``sudo pip install tinydb``
+
+## Run
+uvicorn main:app --reload
+``sudo uvicorn --host 0.0.0.0 --port 80 main:app --log-config log.ini``
+
+## Kill uvicorn
+
+### list python processes
+kill -9 2430
+
+### kill process with ID -> id is the second column
+kill -9 [ID]
