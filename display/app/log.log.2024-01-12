@@ -1,4 +1,0 @@
-[2024-01-12 09:52:25,720.720] INFO [3069752896] - Started server process [552]
-[2024-01-12 09:52:25,737.737] INFO [3069752896] - Waiting for application startup.
-[2024-01-12 09:52:25,741.741] INFO [3069752896] - Application startup complete.
-[2024-01-12 09:52:25,835.835] INFO [3069752896] - Uvicorn running on http://0.0.0.0:80 (Press CTRL+C to quit)

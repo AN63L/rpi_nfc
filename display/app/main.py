@@ -81,16 +81,6 @@ def in_meeting():
     return {"response": "ok"}
 
 
-# lcd = CharLCD(i2c_expander='PCF8574', address=0x3F, port=1, cols=16, rows=1, dotsize=10, auto_linebreaks=True)
-# lcd.clear()
-
-# lcd.write_string('DO NOT DISTURB')
-# lcd.crlf()
-# lcd.write_string('IN A MEETING')
-
-# lcd.close(clear=True)
-
-
 def get_status():
     for item in db:
         print("item: ", item)
@@ -99,15 +89,6 @@ def get_status():
 
 
 def clear():
-    # lcd = CharLCD(
-    #     i2c_expander="PCF8574",
-    #     address=0x3F,
-    #     port=1,
-    #     cols=16,
-    #     rows=1,
-    #     dotsize=10,
-    #     auto_linebreaks=True,
-    # )
     lcd.close(clear=True)
 
 
@@ -129,10 +110,6 @@ def write_to_lcd(lcd, framebuffer, num_cols):
 
 
 def display(message, buffer, status):
-    # write_to_lcd(lcd, framebuffer, 16)
-    # while True:
-    #     loop_string(message, lcd, buffer, 1, 16)
-
     # set status to writing
     db.update({"status": "WRITING"}, Query().status.exists())
 
