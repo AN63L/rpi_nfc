@@ -101,7 +101,7 @@ While the LCD display is in WRITING status, it will never be updated. This is to
 
 _Please see the README file inside the display/app folder to see how to setup logging and running the API_
 
-You can refer to [this guide](https://www.raspberrypi-spy.co.uk/2015/05/using-an-i2c-enabled-lcd-screen-with-the-raspberry-pi/) to run the code at startup.
+You can refer to [this guide](https://github.com/AN63L/rpi_oled_display_stats) to run the code at startup.
 
 
 #### NFC Reader
